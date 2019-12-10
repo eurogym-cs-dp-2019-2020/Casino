@@ -52,6 +52,7 @@ body {
 
 .col-5 {
     flex-basis: 25%;
+
      
 }
 
@@ -128,35 +129,35 @@ body {
     font-size: 17px;
 }
 .highschool {
-    background-color:rgb(241, 233, 233) ;
+     
     font-size: 17px;
     border-color: blue;
     
     
 }
 
-.middleschool {
-    
-}
+
 
 .primaryschool {
-    
+    margin-left: 60px;
 }
 
 .managementteam {
-    
+    margin-left: 60px;
 }
 
 .kindegarden {
-    
+    margin-left: 60px;
 }
 
 .information {
-    background-color: darkslategrey
+    background-color: rgb(24, 23, 23);
+    color: white
 }
 
 .informationword {
-    background-color: darkslategrey
+    background-color: rgb(24, 23, 23);
+    color: white 
 }
 
 .highschoolnav {
@@ -191,6 +192,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     
+    
 }
 .container {
     margin-left: 10px;
@@ -218,11 +220,13 @@ body {
   .colorrownav {
       color: black;
       
+      
   }
   
   .highschool{
     margin-top: 8px;
     margin-bottom: 50px;
+    margin-left: 60px;
     padding-top: 20px;
     padding-bottom: 1px;
    
@@ -236,3 +240,10 @@ body {
     height: 2px;
 
   }
+  .hr2 {
+    border: none;
+    background-color: white;
+    color: white;
+    height: 2px;   
+  }
+  
