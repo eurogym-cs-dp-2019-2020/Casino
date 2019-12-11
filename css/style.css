@@ -477,6 +477,7 @@ body {
      
     font-size: 17px;
     border-color: blue;
+    margin-left: 8px;
     
     
 }
@@ -484,15 +485,15 @@ body {
 
 
 .primaryschool {
-    margin-left: 60px;
+    margin-left: 8px;
 }
 
 .managementteam {
-    margin-left: 60px;
+    margin-left: 8px;
 }
 
 .kindegarden {
-    margin-left: 60px;
+    margin-left: 8px;
 }
 
 .information {
@@ -537,20 +538,18 @@ body {
     
 }
 .container {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 1em;
-    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4em;
+    padding-right: 4em;
     max-width: 1200px;
     
   }
 
   .team_header {
-    margin-left: 10px;
-    margin-right: 10px;
     margin-top: 27px;
     margin-bottom: 27px;
-    padding-left: 10px;
+    padding-left: 8px;
     padding-right: 10px;
     padding-top: 27px;
     padding-bottom: 27px;
@@ -565,14 +564,10 @@ body {
       
   }
   
-  .highschool{
-    margin-top: 8px;
-    margin-bottom: 50px;
-    margin-left: 60px;
-    padding-top: 20px;
-    padding-bottom: 1px;
+   .highschool{
+  
    
-  } 
+  }  
 
   
   .hr1 {
@@ -588,4 +583,7 @@ body {
     color: white;
     height: 2px;   
   }
-  
+  .header-spacer {
+    flex-grow: 2;
+    text-align: right;
+  }
